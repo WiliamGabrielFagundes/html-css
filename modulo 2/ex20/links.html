@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+
+            /* SELETORES PERSONALIZADOS
+                # = id
+                . = class
+                : = pseudo-class
+                :: = pseudo-element
+                > = clildren (filho)
+            */
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: chocolate;
+        }
+
+        a:hover{
+            color: cornflowerblue;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: green;
+        }
+
+        a::before{
+            content: '→';
+        }
+
+        a::after{
+            content: '(Link)';
+            text-decoration: none;
+            font-weight: normal;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <!-- target="_blank" rel="external" -->
+        <li><a href="https://github.com/WiliamGabrielFagundes" target="_blank" rel="external">Repositorio GitHub</a></li>
+        <li><a href="https://www.youtube.com/@Pinguinzinho01" target="_blank" rel="external">Canal YouTube</a></li>
+        <li><a href="https://wiliamgabrielfagundes.github.io/Eletricista_Roque_e_Ieda/" target="_blank" rel="external">Site da Empresa</a></li>
+    </ul>
+</body>
+</html>

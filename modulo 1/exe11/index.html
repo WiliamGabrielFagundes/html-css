@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <h1>Immagens Dinamicas</h1>
+    <p>abrir em varios dispositivos</p>
+    <!-- segir esse padrao -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="Foto Grande">
+    </picture>
+
+    <h1>Reproduzindo Audios</h1>
+        <p>audio aqui</p>
+        
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midia/strlght-sumo.mp3" type="audio/mpeg">
+            <p>invelismente seu navegador nao consege reproduzir este audio. <a href="midia/strlght-sumo.mp3">baixar mp3</a></p>
+        </audio>
+
+        <p>caso voce queira acessar o <a href="https://youtu.be/3q91ZWxjd30?si=rjwtmIpcgHyNrqdN" target="_blank" rel="external">audio esta aqui</a></p>
+
+</body>
+</html>

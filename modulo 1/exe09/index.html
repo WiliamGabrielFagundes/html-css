@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <!-- 
+        type="1" = numeros
+        type="A" = alfabeto grande
+        type="a" = alfabeto pequeno
+        type="I" = numeros romanos grandes
+        type="i" = numeros romanos pequenos 
+    -->
+
+    <!-- start="Numero para comecar" -->
+
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar Agua</li>
+        <!-- "</li>" opcional -->
+        <li>Fazer Comida
+        <li>Estudar
+    </ol>
+
+    <h2>Listas nao Ordenadas</h2>
+    <!-- 
+        type="disc" = bolinha preta
+        type="circlo" = circolo aberto
+        type="square" = quadrado
+    -->
+
+    <ul type="disc">
+        <li>dormir</li>
+        <li>acordar</li>
+        <!-- "</li>" opcional -->
+        <li>Tomar banho
+        <li>descansar
+    </ul>
+
+    <h2>Juntando Listas</h2>
+    <ol>
+        <li>Antigo</li>
+        <ol type="a">
+            <li>disco de vinil</li>
+            <li>carta escrita à mão</li>
+            <li>livro físico</li>
+            <li>jogo de tabuleiro clássico</li>
+        </ol>
+        <li>Novo</li>
+        <ol type="a" start="5">
+            <li>assistente virtual com inteligência artificial</li>
+            <li>aplicativo de realidade aumentada</li>
+            <li>serviço de streaming de jogos</li>
+            <li>dispositivo vestível (wearable) de monitoramento de saúde</li>
+        </ol>
+    </ol>
+
+    <ol>
+        <li>Comida</li>
+        <ul>
+            <li>Pizza Margherita</li>
+            <ul type="square">
+                <li>Itália</li>
+            </ul>
+            <li>Hambúrguer</li>
+            <ul type="square">
+                <li>Estados Unidos</li>
+            </ul>
+            <li>Sushi</li>
+            <ul type="square">
+                <li>Japão</li>
+            </ul>
+            <li>Curry (diversas variações)</li>
+            <ul>
+                <li>Índia</li>
+            </ul>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação</dd>
+        <dt>CSS</dt>
+        <dd>Limguagem de estilização</dd>
+        <dt>JS</dt>
+        <dd>Lingugem de programação</dd>
+    </dl>
+
+</body>
+</html>
